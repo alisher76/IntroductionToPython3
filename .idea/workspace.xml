@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08cc12b2-fc12-422c-bd21-78536a49ff0d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/ProgramFlowControlPart2.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ProgramFlowControlPart3.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ProgramFlowControlPart4ForLoop.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ProgramFlowControlPart1.py" afterPath="$PROJECT_DIR$/ProgramFlowControlPart1.py" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,34 +20,15 @@
     <SUITE FILE_PATH="coverage/PythonMasterClass$ReplacementFields.coverage" NAME="ReplacementFields Coverage Results" MODIFIED="1514257350744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonMasterClass$ProgramFlowControlPart1.coverage" NAME="ProgramFlowControlPart1 Coverage Results" MODIFIED="1514257851312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonMasterClass$ProgramFlowControlPart3.coverage" NAME="ProgramFlowControlPart3 Coverage Results" MODIFIED="1514258904433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonMasterClass$ProgramFlowControlPart4ForLoop.coverage" NAME="ProgramFlowControlPart4ForLoop Coverage Results" MODIFIED="1514262315439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProgramFlowControlPart2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProgramFlowControlPart2.py">
+      <file leaf-file-name="ProgramFlowControlPart4ForLoop.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ProgramFlowControlPart4ForLoop.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProgramFlowControlPart3.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ProgramFlowControlPart3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="30" column="72" lean-forward="false" selection-start-line="30" selection-start-column="72" selection-end-line="30" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProgramFlowControlPart1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProgramFlowControlPart1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="92" lean-forward="false" selection-start-line="7" selection-start-column="92" selection-end-line="7" selection-end-column="92" />
+            <state relative-caret-position="311">
+              <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -83,6 +62,7 @@
         <option value="$PROJECT_DIR$/IfElifElseStatements.py" />
         <option value="$PROJECT_DIR$/ProgramFlowControlPart2.py" />
         <option value="$PROJECT_DIR$/ProgramFlowControlPart3.py" />
+        <option value="$PROJECT_DIR$/ProgramFlowControlPart4ForLoop.py" />
       </list>
     </option>
   </component>
@@ -151,7 +131,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ProgramFlowControlPart3">
+  <component name="RunManager" selected="Python.ProgramFlowControlPart4ForLoop">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -250,6 +230,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="ProgramFlowControlPart4ForLoop" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonMasterClass" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProgramFlowControlPart4ForLoop.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="ReplacementFields" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -264,25 +263,6 @@
       <module name="PythonMasterClass" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ReplacementFields.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Variables" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonMasterClass" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Variables.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -329,19 +309,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Variables" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ReplacementFields" />
-      <item index="2" class="java.lang.String" itemvalue="Python.ProgramFlowControlPart1" />
-      <item index="3" class="java.lang.String" itemvalue="Python.IfElifElseStatements" />
-      <item index="4" class="java.lang.String" itemvalue="Python.ProgramFlowControlPart3" />
+      <item index="0" class="java.lang.String" itemvalue="Python.ReplacementFields" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ProgramFlowControlPart1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.IfElifElseStatements" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ProgramFlowControlPart3" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ProgramFlowControlPart4ForLoop" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ProgramFlowControlPart3" />
-        <item index="1" class="java.lang.String" itemvalue="Python.IfElifElseStatements" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ProgramFlowControlPart1" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ReplacementFields" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Variables" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ProgramFlowControlPart4ForLoop" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ProgramFlowControlPart3" />
+        <item index="2" class="java.lang.String" itemvalue="Python.IfElifElseStatements" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ProgramFlowControlPart1" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ReplacementFields" />
       </list>
     </recent_temporary>
   </component>
@@ -360,12 +340,12 @@
       <updated>1514158543131</updated>
       <workItem from="1514158545918" duration="703000" />
       <workItem from="1514163102431" duration="1064000" />
-      <workItem from="1514253382283" duration="5549000" />
+      <workItem from="1514253382283" duration="7460000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7316000" />
+    <option name="totallyTimeSpent" value="9227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1360" y="154" width="1360" height="746" extended-state="6" />
@@ -496,8 +476,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ProgramFlowControlPart3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" column="72" lean-forward="false" selection-start-line="30" selection-start-column="72" selection-end-line="30" selection-end-column="72" />
+        <state relative-caret-position="78">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgramFlowControlPart4ForLoop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
           <folding />
         </state>
       </provider>
