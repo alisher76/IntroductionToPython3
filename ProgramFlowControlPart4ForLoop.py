@@ -43,3 +43,14 @@ for song in songs:
         print("Love listening to {}".format(song))
 if cant_listen_anymore:
     print("Why man now I cant hear any other songs cuz of you song named: {}".format(song))
+
+# While loop
+guessed = 0
+
+while guessed == 0:
+    guess = input("Guess my favorite number: ")
+    if guess == "7":
+        print("You got it!")
+        guessed = 1
+    else:
+        print("Nope, that’s not it!")
