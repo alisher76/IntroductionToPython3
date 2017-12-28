@@ -22,12 +22,16 @@ def add_student(name, student_id=332): #default value for student id given in th
 def read_file():
     try:
         file = open("students.txt", "r")
-        for student in file.readlines():
+        for student in read_students(file):
             add_student(student)
         file.close()
     except Exception:
         print("Could not read file")
 
+
+def read_students(file): # Generator functions 
+    for line in file:
+        yield line
 
 def save_file(student):
     try:
