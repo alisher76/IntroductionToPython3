@@ -42,6 +42,3 @@ class HighSchoolStudent(Student):
         original_value = super().get_name_capitilized()  # Accessing super class method and modifying it
         return original_value + "-HS"
 
-
-james = HighSchoolStudent("James")
-print(james.get_school_name())
