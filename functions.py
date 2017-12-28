@@ -1,5 +1,5 @@
-
 students = []
+
 
 def get_students_titlecase():
     students_titlecase = []
@@ -13,10 +13,9 @@ def print_student_titlecase():
     print(students_titlecase)
 
 
-def add_student(name, student_id=332): #default value for student id given in the arg
+def add_student(name, student_id=332):  # default value for student id given in the arg
     student = {"name": name, "student_id": student_id}
     students.append(student)
-
 
 
 def read_file():
@@ -29,9 +28,10 @@ def read_file():
         print("Could not read file")
 
 
-def read_students(file): # Generator functions 
+def read_students(file):  # Generator functions
     for line in file:
         yield line
+
 
 def save_file(student):
     try:
@@ -40,6 +40,7 @@ def save_file(student):
         file.close()
     except Exception:
         print("Could not update file")
+
 
 read_file()
 print(print_student_titlecase())
